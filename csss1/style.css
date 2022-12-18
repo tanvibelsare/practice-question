@@ -1,0 +1,14 @@
+/*external css*/
+/* tag selector */
+h3{
+color:red
+}
+/* class selector */
+.content{
+    color:aqua;
+    text-decoration: double;
+}
+/* id selector */
+#selector{
+    background-color: black;
+/* universal selector */

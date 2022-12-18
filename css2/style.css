@@ -1,0 +1,50 @@
+/* descendent selector */
+div p{
+    color:blue
+}
+/* child selector*/ 
+div>p{
+    color:red;
+    font-size:20px;
+}
+/* adjecent sibling selector */
+p+h1{
+    color:yellow
+}
+/* general sibling selector */
+p~p{
+    color:blueviolet
+}
+.btn{
+    color:red;
+    border:10px;
+    border-radius:30px ;
+}
+.btn:hover{
+    color:blue;
+    background-color: aqua;
+
+}
+.item:link{
+    color:royalblue
+}
+.item:visited{
+    color:brown
+}
+.item:hover{
+    color:aquamarine
+}
+
+.task::first-letter{
+    color:green
+}
+::marker{
+    color:palevioletred
+}
+.task::before{
+    content:"✈";
+}
+/* attribute selector */
+input[type="text"]{
+    color:red
+}
