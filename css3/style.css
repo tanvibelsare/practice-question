@@ -1,0 +1,32 @@
+.box{
+   border: 5px solid black;
+    /* padding: 10px; */
+     margin-bottom: 10px;
+    width: 500px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.box-1{
+    border: 5px solid black;
+    /* padding: 10px; */
+    width: 500px;
+    height: 100px;
+    box-sizing: border-box;
+}
+span{
+    display:block;
+}
+/*inline block allow to set height and width*/
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+/* to bring thenelement in same line */
+.nav li{
+    display: inline-block;
+  
+}
+.nav{
+    background-color: brown;
+}
